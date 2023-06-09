@@ -14,7 +14,7 @@ const Fire2 = () => {
       else
         setData(snapshot.val())
     })
-  }, [])
+  }, [id])
   const store = (e) => {
     setData({ ...data, [e.target.name]: e.target.value })
   }
