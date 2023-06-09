@@ -1,12 +1,12 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import App from './App';
+// import App from './App';
 import reportWebVitals from './reportWebVitals';
-import Api from './Api';
-import Firebase from './Firebase';
-import Fire2 from './Fire2';
-import Fire3 from './Fire3';
+// import Api from './Api';
+// import Firebase from './Firebase';
+// import Fire2 from './Fire2';
+// import Fire3 from './Fire3';
 import Apple from './Apple';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));

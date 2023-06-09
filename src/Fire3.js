@@ -43,18 +43,18 @@ const edit=(key)=>{
                 {
                     Object.keys(all||{}).map((key)=>{
                         return(
-                            <>
+                           
                             <tr>
                                 <td>{all[key].name}</td>
                                 <td>{all[key].phone}</td>
                                 <td>{all[key].address}</td>
-                                <td><object data={all[key].image} type=""></object></td>
+                                <td><object data={all[key].image} type="" alt="file">Alternative Text</object></td>
                                 <td><button onClick={()=>edit(key)} >edit</button><button onClick={()=>del(key)} >delete</button></td>
                             </tr>
-                            <tr>
+                            
                                 
-                            </tr>
-                            </>
+                            
+                           
                         )
                     })
                 }
