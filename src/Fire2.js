@@ -18,7 +18,7 @@ const Fire2 = () => {
   const store = (e) => {
     setData({ ...data, [e.target.name]: e.target.value })
   }
-  var reader=""
+  // var reader=""
      const upload=(e)=>{
     var reader=new FileReader()
     reader.readAsDataURL(e.target.files[0])
@@ -26,12 +26,12 @@ const Fire2 = () => {
       setData({...data,[e.target.name]:reader.result})
     }
   }
-  var a = ""
+  // var a = ""
 
   const save = () => {
     alert("enter password")
     let a = prompt("password")
-    if (a == 94165) {
+    if (a === 94165) {
       Firebase.child('record').push(data)
       setData({ name: "", phone: "", address: "" })
     }
