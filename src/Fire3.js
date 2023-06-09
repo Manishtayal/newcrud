@@ -2,7 +2,6 @@
 import { Link, useNavigate } from 'react-router-dom'
 import Firebase from './Firebase'
 import React, { useEffect, useState } from 'react'
-import Fire2 from './Fire2'
 const Fire3 = () => {
     const [all,setAll] = useState({})
     // const[obj,setObj]=useState()
